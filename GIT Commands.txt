@@ -1,0 +1,19 @@
+git clone [Repository URL]
+
+git log
+
+git diff [Old Commit ID] [New Commit ID]
+
+git checkout [Commit ID]
+
+git init
+
+git status
+
+git add [File URL]
+
+git commit -m "[Commit Message]"
+
+git config --global -user.email "[E-Mail]"
+
+git config --global -user.name "[Name]"
