@@ -13,3 +13,8 @@ to copy the master branch and make modifications while preserving the master bra
 How do the diagrams help you visualize the branch structure?
 + Diagrams help you better visualize a branch structure by placing commits into a graph,
 this way we can accurately see the workflow of our project.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
++ Merging two branches together means that the latest commits in each branch will be combined as a commit in one of the two branches. This new commit will have the code of both parent commits merged.
+The merge commit is represented in the diagram as a child of the latest commits in each branch, because
+that´s wha´t GIT is doing in the background while merging.
