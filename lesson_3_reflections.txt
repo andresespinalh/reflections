@@ -9,4 +9,7 @@ Describe the differences between forks, clones, and branches. When would you use
 + 	CLONE: Copies a repository into your local directory, you will need the URL of the online repository to clone it. Should be used whenever you want to copy an online repository into your local machine.
 	BRANCH: Makes a copy of the actual master branch commit into a new branch on your local directory. Should be used when making experimental changes, during collaboration or anything that needs to be done parallel to the master developement.
 	FORK: Is basically a CLONE command, but the cloned directory exists in the server rather than your local machine. Should be used whenever you want to clone somebody else repository and make your own changes, without affecting theirs. This also gives recognition to the original author of the repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
++ Because once you get that copy, you can go offline and get any changes made by your collaborators on your computer.
 	
